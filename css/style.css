@@ -1,0 +1,15 @@
+main {
+position: relative;
+}
+
+#navbar {
+    background-color: blueviolet;
+    position: fixed;
+    left: 0px;
+}
+
+@media screen and(max-width:480px) {
+    #navbar {
+        font-size: 10px;
+    }
+}
